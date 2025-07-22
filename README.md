@@ -7,10 +7,33 @@ Aim: To study and implement Operators in C++.
 Software used: VS Code.
 
 Theory:
-C++ provides a rich set of operators that perform various operations on data. Arithmetic operators (+, -, *, /, %) handle basic math, while relational operators (==, !=, <, >, <=, >=) compare values. Logical operators (&&, ||, !) are used in decision-making constructs like if and while. Assignment operators (=, +=, -=, *=, /=, %=) update variable values, and bitwise operators (&, |, ^, ~, <<, >>) manipulate binary data directly. C++ also supports increment/decrement (++, --), conditional (?:), and comma (,) operators for advanced usage. The sizeof operator determines memory usage, and type cast operators convert data types. Operators can be overloaded within classes to define custom behaviors. Mastery of these operators enhances code efficiency, clarity, and flexibility across applications.
+Operators in C++ are special symbols used to perform operations on variables and values. They are fundamental for writing expressive and functional code.
+C++ operators are broadly categorized as:
+- Arithmetic Operators: Perform basic calculations (+, -, *, /, %).
+- Relational Operators: Compare values (==, !=, >, <, >=, <=).
+- Logical Operators: Combine conditions (&&, ||, !).
+- Assignment Operators: Assign and update variables (=, +=, -=, *=, /=, %=).
+- Increment/Decrement: Modify values by one (++, --), useful in loops.
+- Bitwise Operators: Operate at the binary level (&, |, ^, ~, <<, >>).
+- Ternary Operator: A compact form of if-else (condition ? expr1 : expr2).
+- Sizeof Operator: Determines the memory size of a datatype or variable.
+Understanding operator precedence and associativity ensures correct evaluation order. Mastery of operators enables efficient logic writing, especially in conditions, expressions, loops, and low-level programming like embedded systems.
 
 
-Conclusion: C++ operators enable efficient data manipulation, logic control, and decision-making. Mastering them ensures cleaner code, optimized performance, and enhanced problem-solving across diverse applications.
+Syntax:
+
+    int a = 5, b = 2;
+    int sum = a + b;        // Arithmetic
+    bool isEqual = (a == b); // Relational
+    bool result = (a > b && b > 0); // Logical
+    a += 3;                 // Assignment
+    b++;                    // Increment
+    int bits = a & b;       // Bitwise
+    int max = (a > b) ? a : b; // Ternary
+    int size = sizeof(a);   // Sizeof
+
+Conclusion: Operators are the backbone of C++ logic and computation. Mastering their types and syntax empowers programmers to write expressive, efficient code across conditions, calculations, and memory-level tasks—essential for both everyday programs and advanced systems development.
+
 
 
 
